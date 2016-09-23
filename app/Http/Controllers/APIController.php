@@ -49,7 +49,7 @@ class APIController extends Controller
     public function getcourserecord(Request $request)
     {
         $inputs = implode('',$request->all());
-        error_log($inputs);
+//        error_log($inputs);
 
         $response = '
         <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
